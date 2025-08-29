@@ -1,1 +1,2 @@
 - Commited Portofolio V1. Will make a better one soon.
+- Commited Portofolio V2. Mobile-friendly and minor changes.

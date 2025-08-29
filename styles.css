@@ -195,3 +195,35 @@ li a:hover{
   }
 }
 
+@media (max-width: 900px){
+  #about-me section {
+    display: block;
+  }
+  .img-1{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }
+  .about{
+    margin-top: 0;
+    font-size: 18px;
+  }
+  #projects{
+    display: block;
+  }
+  .img-2{
+    width: 80%;
+    margin-right: 10%;
+  }
+  .project-1 {
+    padding-top: 50%;
+    margin-left: 10%;
+  }
+  .img-3 {
+    margin-top: 75%;
+  }
+  .project-2{
+    margin-top: 60%;
+    margin-left: 53%;
+  }
+}

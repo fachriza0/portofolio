@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-family: "Libertinus Serif Display";
+  font-size: 16px;
+  text-align: justify;
+}
+
+p::first-letter{
+  font-size: 50px;
+  color: orangered;
+}
+
+p::first-line{
+  line-height: 0.8;
+}
+
+a {
+  color: orangered;
+  text-decoration: none;
+}
+
+h1{
+  font-family: georgia, sans-serif;
+  padding: 0;
+  margin: 47vh 46vw;
+  color: whitesmoke;
+}
+
+h2{
+  font-family: georgia;
+}
+
+.welcome{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #4d4d4d;
+}
+
+#navbar {
+  background-color: #ddd;
+  position: fixed;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ddd;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+  border-right: 2px solid black;
+}
+
+li a{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover{
+  background-color: black;
+  color: orangered;
+}
+
+#about-me {
+  background-color: #FEF3E2;
+  height: 100vh;
+}
+
+#about-me section{
+  display: flex;
+  margin: 0 10px 0 10px;
+}
+
+.img-1 {
+  width: 55%;
+  margin-top: 10%;
+}
+
+.about {
+  margin-left: 10px;
+  margin-top: 50%;
+  text-indent: 20px;
+  line-height: 1.2;
+  word-spacing: 2;
+}
+
+#projects{
+  background-color: #2d545e;
+  height: 100vh;
+}
+
+.img-2 {
+  width: 40%;
+  float: right;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+
+.img-3 {
+  width: 40%;
+  float: left;
+  margin-top: 26%;
+  margin-left: 8%;
+}
+
+.project-1 {
+  color: whitesmoke;
+  width: 40%;
+  position: absolute;
+  padding-top: 12%;
+  margin-left: 8%;
+}
+
+.project-2{
+  width: 40%;
+  color: whitesmoke;
+  position: absolute;
+  padding-top: 36%;
+  margin-left: 58%;
+}
+
+.contact{
+  height: 100vh;
+  background-color: #fa625f;
+  width: 100%;
+}
+
+.contact h2{
+  text-align: center;
+  padding-top: 12%;
+}
+
+.links li{
+  font-size: 20px;
+}
+
+.contact p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.contact p::first-letter{
+  color: black;
+}
+
+.contact a{
+  color: black;
+}
+
+@media (max-width: 768px){
+  #about-me section {
+    display: block;
+  }
+  .img-1{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }
+  .about{
+    margin-top: 0;
+    font-size: 18px;
+  }
+  #projects{
+    display: block;
+  }
+  .img-2{
+    width: 80%;
+    margin-right: 10%;
+  }
+  .project-1 {
+    padding-top: 50%;
+    margin-left: 35%;
+  }
+  .img-3 {
+    margin-top: 60%;
+  }
+  .project-2{
+    margin-top: 70%;
+    margin-left: 53%;
+  }
+}

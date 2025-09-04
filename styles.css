@@ -84,14 +84,29 @@ li a:hover{
   margin: 0 10px 0 10px;
 }
 
+.samsis{
+  width: 50%;
+  margin-top: 15%;
+  margin-left: 3%;
+  float: left;
+}
+
+.samsis-p{
+  width: 40%;
+  color: whitesmoke;
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 24%;
+}
+
 .img-1 {
-  width: 55%;
+  width: 25%;
   margin-top: 10%;
 }
 
 .about {
   margin-left: 10px;
-  margin-top: 50%;
+  margin-top: 30%;
   text-indent: 20px;
   line-height: 1.2;
   word-spacing: 2;
@@ -105,15 +120,15 @@ li a:hover{
 .img-2 {
   width: 40%;
   float: right;
-  margin-top: 3%;
-  margin-right: 2%;
+  margin-top: 5%;
+  margin-right: 4%;
 }
 
 .img-3 {
   width: 40%;
   float: left;
   margin-top: 26%;
-  margin-left: 8%;
+  margin-left: 4%;
 }
 
 .project-1 {
@@ -121,7 +136,7 @@ li a:hover{
   width: 40%;
   position: absolute;
   padding-top: 12%;
-  margin-left: 8%;
+  margin-left: 4%;
 }
 
 .project-2{
@@ -129,37 +144,29 @@ li a:hover{
   color: whitesmoke;
   position: absolute;
   padding-top: 36%;
-  margin-left: 58%;
+  margin-left: 56%;
 }
 
-.contact{
-  height: 100vh;
-  background-color: #fa625f;
-  width: 100%;
+footer{
+  height: 20vh;
+  background-color: black;
 }
 
-.contact h2{
+footer h2{
   text-align: center;
-  padding-top: 12%;
+  padding-top: 20px;
+  color: orangered;
+  margin-bottom: 15px;
 }
 
-.links li{
-  font-size: 20px;
-}
-
-.contact p{
+footer p{
   text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-  margin: 20px;
+  color: whitesmoke;
 }
 
-.contact p::first-letter{
-  color: black;
-}
-
-.contact a{
-  color: black;
+.details {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 768px){

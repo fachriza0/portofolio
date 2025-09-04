@@ -206,6 +206,11 @@ footer p{
   #about-me section {
     display: block;
   }
+  .samsis{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }
   .img-1{
     width: 80%;
     margin-left: 10%;
@@ -240,3 +245,4 @@ footer p{
     font-size: 1.2rem;
   }
 }
+

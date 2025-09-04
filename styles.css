@@ -117,6 +117,11 @@ li a:hover{
   height: 100vh;
 }
 
+#project-samsis{
+  background-color: #2d545e;
+  height: 100vh;
+}
+
 .img-2 {
   width: 40%;
   float: right;
@@ -185,6 +190,7 @@ footer p{
   #projects{
     display: block;
   }
+  
   .samsis{
     width: 80%;
     margin-left: 10%;
@@ -196,7 +202,7 @@ footer p{
     padding-top: 30%;
     margin-left: 10%;
   }
-
+  
   .img-2{
     width: 80%;
     margin-right: 10%;
@@ -227,9 +233,12 @@ footer p{
     margin-top: 0;
     font-size: 18px;
   }
-  #projects{
+  #project-samsis{
     display: block;
     height: 60vh;
+  }
+  #projects{
+    display: block;
   }
   .img-2{
     width: 80%;

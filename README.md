@@ -2,4 +2,4 @@
 - Commited Portofolio V2. Mobile-friendly and minor changes.
 - Footer on the way, change contact into footer.
 - Change image
-- Website completed, new design and interactivity soon.
+- Website completed, new design and interactivity soon, and a logo.
